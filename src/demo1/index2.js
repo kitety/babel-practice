@@ -32,6 +32,7 @@ const targetCalleeName = ["log", "info", "debug", "error"].map(
 );
 traverse(ast, {
   CallExpression(path, state) {
+    // path.get('callee').toString()
     const calleeName = generate(path.node.callee).code;
     if (targetCalleeName.includes(calleeName)) {
       const { line, column } = path.node.loc.start;
