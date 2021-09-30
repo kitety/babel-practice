@@ -15,6 +15,9 @@
     "@babel/parser": "^7.15.7",
     "@babel/template": "^7.15.4",
     "@babel/traverse": "^7.15.4",
-    "@babel/types": "^7.15.6"
+    "@babel/types": "^7.15.6",
+    "acorn": "^8.5.0",
+    "acorn-bigint": "^1.0.0",
+    "acorn-jsx": "^5.3.2"
   }
 }
